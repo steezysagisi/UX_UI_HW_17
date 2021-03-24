@@ -9,11 +9,10 @@ html { box-sizing: border-box;
 #navBar {
   display: flex;
   flex-direction: row;
-  margin: 0px 5%;
+  margin: 0 18% 0 18%;  
 }
 
 #navBar h1 {
-  width: 25%;
   font-size: 39.06px;
   line-height: 35px;
   font-family: "Averia Libre", Times, serif;
@@ -24,8 +23,7 @@ html { box-sizing: border-box;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 75%;
-  
+  width: 100%;
 }
 
 #navigation p {
@@ -78,7 +76,7 @@ body {
 }
 
 #styles h1 {
-  font-size: 61.04px;
+  font-size: 39.06px;
   line-height: auto;
   font-family: "Averia Libre", Times, serif;
   color: rgb(46, 46, 46);
@@ -88,33 +86,70 @@ body {
   font-size: 39.06px;
   line-height: auto;
   font-family: "raleway", arial, sans-serif;
-  color: rgb(46, 46, 46);
+  color: #2e2e2e;
 }
 
 /* Boxes */
 
-#colorswatch {
-  width: 250px;
-  height: 150px;
-  padding: 20px;
-  display: inline-block;
-  text-align: justify;
-  font-size: 25.00px;
-  line-height: auto;
+.poop {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 18%;  
+}
+
+
+#backgroundcolor {
+  background-color: #F5F5F5;
+  width: 175px;
+  height: 175px;
+  border: 1px solid rgb(151, 25, 73);
+  margin-right: 50px;
+}
+
+#backgroundcolor p{
+  text-align: center;
+  font-size: 25px;
   font-family: "raleway", arial, sans-serif;
+  color: #2e2e2e
+
+}
+
+#textcolor {
+  background-color: #2e2e2e;
+  width: 175px;
+  height: 175px;
+  margin-right: 50px;
+}
+
+#textcolor p{
+  text-align: center;
+  font-size: 25px;
+  font-family: "raleway", arial, sans-serif;
+  color: #d3d3d3;
+}
+
+
+/* Fonts */
+
+.fonts4all {
+  margin: 0 0 0 18%;  
+}
+
+#heading {
+  font-size: 61.04px;
+  font-family: "Averia Libre", Times, serif;
   color: rgb(46, 46, 46);
 }
 
-#colorswatch background {
-  background:#F5F5F5;
-  color:#666;
-  margin: 0 20px 0 18%;
-  outline: 1px ridge;
+#smallerheading {
+  font-size: 39.06px;
+  font-family: "Averia Libre", Times, serif;
+  color: rgb(46, 46, 46);
 }
 
-#colorswatch black {
-  background:rgb(46, 46, 46);
-  color:#F5F5F5;
-  margin: 0 0 20px ;
-
+#liltypes {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: rgb(46, 46, 46);
 }
